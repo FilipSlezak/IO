@@ -1,0 +1,18 @@
+.main {
+  height: 100%;
+  max-height: calc(100vh - 56px);
+  overflow: auto;
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+    flex-grow: 1;
+    align-items: center;
+  }
+}

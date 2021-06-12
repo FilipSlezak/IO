@@ -1,0 +1,17 @@
+<div class="taskCard mat-elevation-z2" *ngIf="task !== undefined">
+  <div class="card-header">
+    <h4>{{ task.title }}</h4>
+    <div class="creator">
+        <span>Created by: {{ task.creator | titlecase }}</span>
+    </div>
+  </div>
+  <div class="separator"></div>
+  <div class="card-body">
+    <p>
+      {{ task.description }}
+    </p>
+  </div>
+  <div class="card-footer">
+    <span class="date">Created at: {{ task.created_at }}</span>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.taskCard {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  height: 250px;
+  width: auto;
+  @media (min-width: 980px) {
+    min-width: 700px;
+  }
+  .card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    h4 {
+      font-size: 19px;
+      line-height: 21px;
+      font-weight: 500;
+    }
+    .creator {
+      margin-left: auto;
+    }
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    span {
+      opacity: 0.5;
+    }
+  }
+}

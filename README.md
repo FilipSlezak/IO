@@ -9,10 +9,11 @@ Requirements:
   - docker-compose ( required on linux since windows and mac has it in their docker apps)
   - (for linux ) docker deamon service is enabled and running
   - ports 5555 and 8080 should be open and free while running docker-compose command.
-
+  - file backend/entrypoint.sh has rights for execution. run chmod +x on it if not.
 
 
 How to run project:
+  - Berfore, make sure file etrypoint.sh has rights for execution! ( if not backend service will not build and app will not work)
 from root dir of procjet run "docker-compose up". When every service is done with starting, frontend should be available on http://localhost:5555 and backend on http://localhost:8080
 
 

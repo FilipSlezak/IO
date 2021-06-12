@@ -14,7 +14,7 @@ Requirements:
 
 How to run project:
   - Berfore, make sure file etrypoint.sh has rights for execution! ( if not backend service will not build and app will not work)
-  - from root dir of procjet run "docker-compose up". When every service is done with starting, frontend should be available on http://localhost:5555 and backend on http://localhost:8080
+  - from root dir of project run "docker-compose up". When every service is done with starting, frontend should be available on http://localhost:5555 and backend on http://localhost:8080
 
 
 Notes:
